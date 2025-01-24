@@ -30,7 +30,8 @@ jobs:
 
       - name: 安装依赖
         run: pnpm install --frozen-lockfile
-         with: version: 8
+        with: 
+          version: 8
 
       # 运行构建脚本
       - name: 构建 VuePress 站点
